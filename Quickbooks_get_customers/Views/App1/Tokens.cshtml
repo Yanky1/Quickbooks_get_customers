@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Tokens";
+}
+
+<br />
+
+@foreach (var claim in System.Security.Claims.ClaimsPrincipal.Current.Claims)
+{
+
+    if (@claim.Type == "access_token")
+    {
+        <h2 style="text-align: center;">Connection successful!</h2>
+        break;
+    }
+
+}
+
+<br />
+
+@using (Html.BeginForm("ApiCallService", "App1", FormMethod.Post))
+{
+
+    <div style=" width:fit-content; margin: auto"><input type="submit" name="submitButton" value="Get customers names" /></div>
+    <br />
+
+    <br />
+}
+

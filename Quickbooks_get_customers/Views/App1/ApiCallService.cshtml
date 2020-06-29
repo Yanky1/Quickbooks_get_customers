@@ -1,0 +1,14 @@
+﻿@model string
+@{
+    ViewBag.Title = "API Call Response";
+}
+
+<h2>API Call Response</h2>
+
+<p style="word-wrap: break-word; text-align: center; white-space: pre-line; font-size: 20px;">
+    @Html.Raw(Html.Encode(Model).Replace("\n", "<br />"))
+    
+</p>
+
+
+

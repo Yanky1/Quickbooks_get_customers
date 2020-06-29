@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quickbooks_get_customers", "Quickbooks_get_customers\Quickbooks_get_customers.csproj", "{A293B270-6603-4E47-A57F-AA2A9837743A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A293B270-6603-4E47-A57F-AA2A9837743A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A293B270-6603-4E47-A57F-AA2A9837743A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A293B270-6603-4E47-A57F-AA2A9837743A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A293B270-6603-4E47-A57F-AA2A9837743A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D48C1C9-9FC7-44BB-B35F-2B598FACD735}
+	EndGlobalSection
+EndGlobal
